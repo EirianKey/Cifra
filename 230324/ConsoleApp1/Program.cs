@@ -5,19 +5,15 @@ class Program
 {
     enum Types
     {
+        None,
         StringType,
         NumberType
     }
     static void Main ( string [ ] args )
     {
-
-
         string _userValue;
         float _value;
-        string valueType = "";
-        const string NumberType = "number";
-        const string StringType = "string";
-        Types.
+        Types valueType = Types.None;
         //0-неопределно
         //1- число 
         //2-строка
@@ -26,19 +22,16 @@ class Program
         {
             _userValue = ReadValue ( );
 
-            if ( _userValue == "exit" )
-            {
-                break;
-            }
+            if ( _userValue == "exit" ) break;
 
-            valueType = GetValueType ( );
+            valueType = GetValueType();
 
             switch(valueType)
             {
-                case NumberType:
+                case Types.NumberType:
                     PrintNumberInfo ( );
                     break;
-                case StringType:
+                case Types.StringType:
                     PrintStringInfo ( );
                     break;
             }
@@ -56,7 +49,7 @@ class Program
         string GetValueType ( )
         {
             bool isNumber = float.TryParse(_userValue, out _value);
-            return isNumber ? NumberType : StringType;
+            return isNumber ? Types.NumberType : Types.StringType;
         }
         void PrintNumberInfo()
         {
