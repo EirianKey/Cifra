@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "230419", "230419.csproj", "{6B861C20-2600-4B04-88E5-D0B3F615E136}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadacha2", "..\zadacha2\zadacha2.csproj", "{15A3E1DA-6960-416C-807A-EEF4AB38EB24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadacha3", "..\zadacha3\zadacha3.csproj", "{3FFF7246-9B7B-44C5-B8A7-3BB6070C424E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B861C20-2600-4B04-88E5-D0B3F615E136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B861C20-2600-4B04-88E5-D0B3F615E136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B861C20-2600-4B04-88E5-D0B3F615E136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B861C20-2600-4B04-88E5-D0B3F615E136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A3E1DA-6960-416C-807A-EEF4AB38EB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A3E1DA-6960-416C-807A-EEF4AB38EB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A3E1DA-6960-416C-807A-EEF4AB38EB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A3E1DA-6960-416C-807A-EEF4AB38EB24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFF7246-9B7B-44C5-B8A7-3BB6070C424E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFF7246-9B7B-44C5-B8A7-3BB6070C424E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFF7246-9B7B-44C5-B8A7-3BB6070C424E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFF7246-9B7B-44C5-B8A7-3BB6070C424E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5C987A7-6AC2-47F1-BDE3-0B7AF4BE5DCE}
+	EndGlobalSection
+EndGlobal
